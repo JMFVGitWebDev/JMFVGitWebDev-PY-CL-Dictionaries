@@ -74,7 +74,7 @@ def remove_key(my_dict, key):
     :param key: The key to remove.
     :return: The value associated with the removed key, or None if the key is not found.
     """
-    return my_dict.pop(key)
+    return my_dict.pop(key, None)
 
 
 
