@@ -42,7 +42,7 @@ def get_value(my_dict, key):
     :param key: The key to retrieve the value for.
     :return: The value associated with the specified key, or None if the key is not found.
     """
-    return my_dict[key]
+    return my_dict.get(key)
 
 
 def get_items(my_dict):
